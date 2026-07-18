@@ -1,0 +1,86 @@
+.hero-banner{
+    background: url('../images/home-slider.png') center center;
+    position: relative;
+    min-height: 100vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+}
+
+.hero-banner .container{
+
+    position:relative;
+    z-index:2;
+
+}
+
+.hero-content{
+
+    color:#fff;
+
+
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.hero-content h3{
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.hero-content h1{
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.hero-overlay{
+    margin: auto;
+}
+
+.about-contact{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.about-contact .about, .contact{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.about-contact .about:hover{
+    background: #A61939;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
+
+.about-contact .about{
+    background: #DA1E48;
+}
+
+.about-contact .contact{
+    border: 2px solid #fff;
+}
+
+.about-contact .contact:hover{
+    background: #A61939;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+    border-color: #A61939;
+}
+
+.about-contact a{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

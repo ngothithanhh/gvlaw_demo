@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const mobileMenu = document.querySelector(".mobile-menu");
     const overlay = document.querySelector(".overlay");
 
-    console.log(document.querySelector(".menu-toggle"));
-    console.log(document.querySelector(".mobile-menu"));
+    // console.log(document.querySelector(".menu-toggle"));
+    // console.log(document.querySelector(".mobile-menu"));
 
     // Mở menu
     menuToggle.addEventListener("click", function () {
@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
         ".mobile-nav .menu-item-has-children > a"
     );
 
-    console.log(document.querySelectorAll(".mobile-nav .menu-item-has-children > a"));
     parents.forEach(function (item) {
 
         item.addEventListener("click", function (e) {

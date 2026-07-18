@@ -2,6 +2,7 @@
 
 function gvlaw_setup()
 {
+    // die('functions.php loaded');
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('custom-logo');
@@ -66,5 +67,30 @@ function gvlaw_assets()
         filemtime(get_template_directory() . '/assets/js/menu.js'),
         true
     );
+
+    wp_enqueue_style(
+        'home',
+        get_template_directory_uri() . '/assets/css/home.css',
+        [],
+        filemtime(get_template_directory() . '/assets/css/home.css')
+    );
+
+    if(is_front_page()){
+        wp_enqueue_style(
+            'hero',
+            get_template_directory_uri() . '/assets/css/hero.css',
+            ['home'],
+            filemtime(get_template_directory() . '/assets/css/hero.css')
+        );
+
+
+        wp_enqueue_style(
+            'about-home',
+            get_template_directory_uri() . '/assets/css/about-home.css',
+            ['home'],
+            filemtime(get_template_directory() . '/assets/css/about-home.css')
+
+        );
+    }
 }
 add_action('wp_enqueue_scripts', 'gvlaw_assets');
