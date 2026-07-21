@@ -91,6 +91,16 @@ function gvlaw_assets()
             filemtime(get_template_directory() . '/assets/css/about-home.css')
 
         );
+
+        wp_enqueue_script(
+        'scroll-animation-js',
+        get_template_directory_uri() . '/assets/js/scroll-animation.js',
+        [],
+        filemtime(get_template_directory() . '/assets/js/scroll-animation.js'),
+        true
+    );
+
+
     }
 }
 add_action('wp_enqueue_scripts', 'gvlaw_assets');
