@@ -114,47 +114,77 @@
 
                 </div>
 
-            </div>
-
-            <!-- Hàng 3 -->
-            <!-- <div class="row align-items-center about-row">
-
-                <div class="col-lg-6">
-
-                    <div class="about-image">
-
-                        <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/about/about-3.jpg"
-                            alt="About">
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-6">
-
-                    <div class="about-content">
-
-                        <h3>
-                            Title
-                        </h3>
-
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-
-                        <a href="#" class="btn-about">
-                            Learn More
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div> -->
-
+            </div>          
         </div>
 
+    </div>
+    <div class="firm">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>THE FIRM WAS FOUNDED
+                    <br>
+                    ON THE FOLLOWING PRINCIPLES</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="following-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/active-user.png" alt="">
+
+                    </div>
+                    <div class="following-content">
+                        <h3>
+                            INTEGRITY
+                        </h3>
+                        <p>We deliver practical and objective advice, and do not 
+                            cause our clients to incur unnecessary legal costs
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="following-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hand.png" alt="">
+                    </div>
+                    <div class="following-content">
+                        <h3>
+                            AFFORDABLE                        
+                        </h3>
+                        <p>We do our best to allow everyone to have access to legal advice,
+                             by charging fees that we believe are reasonable and fair
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="following-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guarantee.png" alt="">
+                    </div>
+                    <div class="following-content">
+                        <h3>
+                            INTEGRITY
+                        </h3>
+                        <p>We deliver practical and objective advice, and do not 
+                            cause our clients to incur unnecessary legal costs
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="following-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/run.png" alt="">
+                    </div>
+                    <div class="following-content">
+                        <h3>
+                            INTEGRITY
+                        </h3>
+                        <p>We deliver practical and objective advice, and do not 
+                            cause our clients to incur unnecessary legal costs
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 </section>

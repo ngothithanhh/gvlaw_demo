@@ -159,3 +159,118 @@
     opacity: 1;
     transform: translateX(0);
 }
+
+.btn-about:hover{
+    background: #A61939;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
+
+.firm{
+    background: url('../images/gvlawyers-local-sFivV9RtW0nv5Q2.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.firm .col-12 h3{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    line-height: 45px;
+}
+
+.firm .col-12 h3::after{
+    content: '';
+    background: #fff;
+    display: block;
+    position: relative;
+    width: 70px;
+    height: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    
+}
+.firm .row{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.firm .col-3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+.firm .following-icon{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.firm .following-content h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.firm .following-content p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+.firm .following-content{
+    margin-top: 10px;
+}
+
+.firm > .container > .row:first-child {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s cubic-bezier(.22,1,.36,1);
+}
+
+.firm > .container > .row:first-child.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.firm .col-3 {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 1s cubic-bezier(.22,1,.36,1);
+}
+
+/* Khi xuất hiện */
+.firm .row:nth-child(2).show .col-3 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Delay từng cột
+.firm.show .col-3:nth-child(1) {
+    transition-delay: .2s;
+}
+
+.firm.show .col-3:nth-child(2) {
+    transition-delay: .4s;
+}
+
+.firm.show .col-3:nth-child(3) {
+    transition-delay: .6s;
+}
+
+.firm.show .col-3:nth-child(4) {
+    transition-delay: .8s;
+} */

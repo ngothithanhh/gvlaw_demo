@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const sections = document.querySelectorAll(".about-heading, .about-row");
+    const sections = document.querySelectorAll(".about-heading, .about-row, .firm .row");
 
     const observer = new IntersectionObserver((entries) => {
 
