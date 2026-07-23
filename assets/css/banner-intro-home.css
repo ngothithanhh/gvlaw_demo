@@ -1,0 +1,67 @@
+.banner-intro .content{
+    background: url('../images/gvlawyers-local-FVkfxS51XxiECn0.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-intro .text-content{
+    width: 90%;
+}
+
+.banner-intro .outer{
+    padding: 0;
+    display: flex;
+}
+
+.banner-intro > .row{
+    display: flex;
+    align-items: stretch;
+}
+
+.banner-intro .image,
+.banner-intro .content{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-intro .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .banner-intro .content{
+    display: block;
+} */
+
+.banner-intro .text-content{
+    display: flex;   
+    justify-content: center; 
+    margin: auto;
+    text-align: center;
+
+}
+
+.banner-intro .text-content .row{
+    padding-top: 50px;
+}
+
+.banner-intro .text-content .counter{
+    font-size: 75px;
+}
+
+.banner-intro .text-content span{
+    font-size: 16px;
+}
+
+.banner-intro .text-content p{
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.banner-intro .text-content .col-6{
+    padding-bottom: 30px;
+}
+

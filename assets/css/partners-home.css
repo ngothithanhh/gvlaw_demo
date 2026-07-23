@@ -1,0 +1,130 @@
+.partner-heading h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #DA1E48;
+}
+
+.partner-heading h3>strong{
+    color: black;
+}
+
+.partner-heading h3::after{
+    content: '';
+    background: #DA1E48;
+    width: 70px;
+    height: 4px;
+    display: block;
+    position: relative;
+    bottom: -5px;
+}
+
+.partner-heading p{
+    padding: 5px 0px;
+    font-size: 13px;
+}
+
+.partner-heading a{
+    background: #DA1E48;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.partnerSwiper{
+    height: 380px;
+}
+
+.partner-card {
+    width: 274px;
+    height: 380px;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: relative;
+}
+
+.partner-image {
+    width: 100%;
+    height: 100%;
+}
+
+.partner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.partner-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+    background: #DA1E48;
+    opacity: 0.5;
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform .4s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.partner-info h3{
+    font-size: 18px;
+}
+
+.partner-card:hover .partner-info {
+    transform: translateY(0);
+}
+
+.home-partners .col-lg-10{
+    padding: 0px 80px;
+}
+
+.home-partners .swiper-button-prev,
+.home-partners .swiper-button-next{
+    width: 30px;
+    height: 60px;
+    background: #fff;
+    color: #DA1E48;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.home-partners .swiper-button-prev{
+    left: 0;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.home-partners .swiper-button-next{
+    right: 19px;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.home-partners .swiper-button-prev::after,
+.home-partners .swiper-button-next::after{
+    font-size: 15px;
+}
+
+.home-partners .swiper-button-lock{
+    font-size: 15px;
+}

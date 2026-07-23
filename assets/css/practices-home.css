@@ -1,0 +1,124 @@
+.practices{
+    background: url('../images/gvlawyers-local-EcBc7eUvB9.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+    padding-top: 50px;
+}
+
+.practices .practices-heading{
+    text-align: center;
+}
+
+.practices .practices-heading h3{
+    color: #DA1E48;
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.practices .practices-heading h3::after{
+    content: '';
+    width: 70px;
+    height: 4px;
+    display: block;
+    background: #DA1E48;
+    position: relative;
+    width: 70px;
+    height: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+}
+
+.practices .practices-heading p{
+    color: #7B7D84;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+.practices-item{
+    background: #fff;
+    border-style: solid ;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 3px;
+    border-color: #E2E2E2;
+    border-bottom-color: #DA1E48 ;
+    width: 80%;
+}
+
+.practices-content{
+    color: black;
+}
+
+.practices-content h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0;
+}
+
+.practices-item>a{
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.practices-item>a .practices-icon>i{
+    color: black;
+    font-size: xxx-large;
+    padding: 10px;
+}
+
+.practices .col-3{
+    padding: 0px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.practices-heading{
+    opacity: 0;
+    transform: translateY(80px);
+    transition:
+        opacity 1s cubic-bezier(.22,1,.36,1),
+        transform 1s cubic-bezier(.22,1,.36,1);
+}
+
+.practices-heading.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.practices-item{
+    opacity: 0;
+    transform: translateY(60px);
+    transition:
+        opacity .8s cubic-bezier(.22,1,.36,1),
+        transform .8s cubic-bezier(.22,1,.36,1);
+}
+
+.practices-item.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.practices-item {
+    transition: .4s ease;
+}
+
+.practices-item:hover {
+    background: #A61939;
+}
+
+.practices-item:hover .practices-icon,
+.practices-item:hover .practices-content,
+.practices-item:hover .practices-content h3,
+.practices-item:hover .practices-icon i {
+    color: #fff;
+}
+
+
